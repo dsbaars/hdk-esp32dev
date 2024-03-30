@@ -2,22 +2,38 @@
 
 #include <ESP32-HUB75-MatrixPanel-I2S-DMA.h>
 
-#define R1 21
-#define G1 2
-#define BL1 22
-#define R2 23
-#define G2 4
-#define BL2 27
 
-#define CH_A 26
-#define CH_B 5
-#define CH_C 25
+// #define R1_PIN 25
+// #define G1_PIN 26
+// #define B1_PIN 27
+// #define R2_PIN 21
+// #define G2_PIN 22
+// #define B2_PIN 23
+// #define A_PIN 12
+// #define B_PIN 16 // Changed from library default
+// #define C_PIN 17
+// #define D_PIN 18
+// #define E_PIN -1
+// #define LAT_PIN 32
+// #define OE_PIN 33
+// #define CLK_PIN 15
+
+#define R1 25
+#define G1 26
+#define BL1 27
+#define R2 21
+#define G2 22
+#define BL2 23
+
+#define CH_A 12
+#define CH_B 16
+#define CH_C 17
 #define CH_D 18
 #define CH_E -1  // assign to pin 14 if using more than two panels
 
-#define LAT 19
-#define OE 32
-#define CLK 33
+#define LAT 32
+#define OE 33
+#define CLK 15
 
 static MatrixPanel_I2S_DMA *_matrix;
 

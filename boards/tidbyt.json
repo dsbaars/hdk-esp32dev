@@ -22,7 +22,7 @@
         "onboard_tools": [
             "ftdi"
         ],
-        "openocd_board": "esp32-wrover.cfg"
+        "openocd_board": "esp32-wroom.cfg"
     },
     "frameworks": [
         "arduino",
@@ -30,7 +30,7 @@
     ],
     "name": "Espressif ESP32 Dev Module",
     "upload": {
-        "flash_size": "8MB",
+        "flash_size": "4MB",
         "maximum_ram_size": 327680,
         "maximum_size": 8388608,
         "require_upload_port": true,
